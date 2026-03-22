@@ -21,7 +21,7 @@ sh 'docker build -t $IMAGE_NAME .'
 
 stage('Push Docker Image') {
 steps {
-sh 'docker login -u myorgdocker1 -p Kolkata$123'
+sh 'docker login -u myorgdocker1 -p gitgit123'
 sh 'docker push $IMAGE_NAME'
 }
 }
